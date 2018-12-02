@@ -1,0 +1,48 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, How are you?", "Good to see you", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later!", "Have a nice day", "Bye!"]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Your welcome!", "Any time!", "My pleasure"]
+        },
+	{"tag": "noanswer",
+         "patterns": [""],
+         "responses": ["Sorry, please say that again", "Please give me more info", "I still can't understand that."]
+        },
+        {"tag": "goodmorning",
+         "patterns": ["Good Morning!", "Good Day!" ],
+         "responses": ["Good morning!", "Good Day!"]
+        },
+        {"tag": "goodafternoon!",
+         "patterns": ["Good Afternoon!" ],
+         "responses": ["Good Afternoon!"]
+        },
+        {"tag": "goodevening",
+         "patterns": ["Good Evening!" ],
+         "responses": ["Good Evening!"]
+        },
+	{"tag": "goodnight",
+         "patterns": ["Good Night!" ],
+         "responses": ["Good Night!", "Good Night! Sweet Dreams!"]
+        },
+	{"tag": "aboutbot",
+         "patterns": ["Who are you?", "What is your name?", "Tell me your name." ],
+         "responses": ["I'm Buddhi. A Chatbot made with Tensorflow."]
+        },
+	{"tag": "ability",
+         "patterns": ["What can you do?", "What do you do?", "What are your abilities."],
+         "responses": ["I'm designed to chat with humans like you. But I'm not intelligent like you.", "I'm a Chatbot that can chat with humans. But I'm still learning!"]
+        },
+        {"tag": "stupidblame",
+         "patterns": ["You are stupid!", "You are not answering my question.", "That's not what I asked.", "You are a dumb chatbot."],
+         "responses": ["Sorry. I'm still learning. There's lot to learn for me.", "My answers may look stupid since I'm still learning!", "Oh! I'm really sorry for the inconvenience"]
+        }
+   ]
+}
