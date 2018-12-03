@@ -1,4 +1,4 @@
-# Buddhilive
+# Buddhilive Chatbot
 
 ![Image of Buddhilive](https://github.com/Buddhilive/Buddhilive/blob/master/Images/buddhilive-header-2018.png)
 
