@@ -11,7 +11,7 @@
          "patterns": ["Thanks", "Thank you", "That's helpful"],
          "responses": ["Your welcome!", "Any time!", "My pleasure"]
         },
-	{"tag": "noanswer",
+		{"tag": "noanswer",
          "patterns": [""],
          "responses": ["Sorry, please say that again", "Please give me more info", "I still can't understand that."]
         },
@@ -27,15 +27,15 @@
          "patterns": ["Good Evening!" ],
          "responses": ["Good Evening!"]
         },
-	{"tag": "goodnight",
+		{"tag": "goodnight",
          "patterns": ["Good Night!" ],
          "responses": ["Good Night!", "Good Night! Sweet Dreams!"]
         },
-	{"tag": "aboutbot",
+		{"tag": "aboutbot",
          "patterns": ["Who are you?", "What is your name?", "Tell me your name." ],
          "responses": ["I'm Buddhi. A Chatbot made with Tensorflow."]
         },
-	{"tag": "ability",
+		{"tag": "ability",
          "patterns": ["What can you do?", "What do you do?", "What are your abilities."],
          "responses": ["I'm designed to chat with humans like you. But I'm not intelligent like you.", "I'm a Chatbot that can chat with humans. But I'm still learning!"]
         },
